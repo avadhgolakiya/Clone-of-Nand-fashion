@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --nav: #ffe6d9;
+}
+nav{
+    width: 100vw;
+    max-height: 112px;
+    background-color: var(--nav);
+}

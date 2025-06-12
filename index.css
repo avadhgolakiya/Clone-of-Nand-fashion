@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --nav: #ffe6d9;
+    --text: #6d0a00;
+}
+nav{
+    width: 100vw;
+    height: 115px;
+    background-color: var(--nav);
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.part-1-nav{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.part-1-nav>img{
+    width: 80px;
+    height: 80px;
+    margin-right: 3rem;
+}
+h3{
+    color: var(--text);
+}
